@@ -1,0 +1,49 @@
+# ===== 依赖 =====
+node_modules/
+
+# ===== 构建产物 =====
+# vite build 的输出目录
+dist/
+dist-ssr/
+# 构建/测试覆盖率报告
+coverage/
+
+# ===== 日志 =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== 缓存 =====
+# ESLint 增量检查缓存
+.eslintcache
+# oxlint 缓存
+.oxlintcache
+# TypeScript 增量编译信息（vue-tsc --build 生成）
+*.tsbuildinfo
+# Vite 依赖预构建的时间戳文件
+*.timestamp-*-*.mjs
+
+# ===== 环境变量 =====
+.env
+.env.*
+!.env.example
+*.local
+
+# ===== 编辑器 / 系统 =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS 与 Windows 系统生成的垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
